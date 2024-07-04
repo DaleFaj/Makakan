@@ -1,0 +1,273 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+
+/* Profile Edit Section */
+.profile-edit {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 40%;
+    height: 700px;
+    background-color: #DAE2B6;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile Image Styling */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: -150px;
+}
+
+/* Profile Name Styling */
+.profile-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #606C5D;
+    margin-bottom: 50px;
+}
+
+/* Buttons Container */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Button Styles */
+.edit-profile, .logout {
+    background-color: white;
+    color: #606C5D;
+    border-radius: 12px;
+    padding: 15px 73px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    border-width: 0;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.logout {
+    padding: 15px 90px;
+}
+
+.edit-profile:hover, .logout:hover {
+    background-color: #606C5D;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button, .buttons a {
+    display: block;
+    cursor: pointer;
+}
+
+/* Content Section */
+.content-section {
+    flex-grow: 1;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabs for Switching Between Sections */
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #606C5D;
+}
+
+.tab-link {
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #606C5D;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: border-bottom-width 0.3s ease;
+    border-bottom: 2px solid transparent;
+    background-color: white;
+}
+
+.tab-link.active {
+    border-bottom: 2px solid #606C5D;
+}
+
+/* Tab Content Styling */
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 8px 8px 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 650px;
+    overflow-y: auto;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Recipe Image Container */
+.recipe-image-container {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.recipe-image {
+    width: 300px;
+    height: auto;
+}
+
+/* Recipe Info Styling */
+.recipe-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.recipe-header {
+    display: flex;
+    align-items: center;
+}
+
+.bookmark-icon {
+    height: 20px;
+    margin-left: 138px;
+}
+
+.recipe-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #606C5D;
+    margin: 0;
+}
+
+.recipe-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #606C5D;
+    margin-top: 5px;
+}
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.recipe-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-content {
+    padding: 15px;
+}
+
+.recipe-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #606C5D; 
+}
+
+.recipe-ingredients, .recipe-instructions {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #606C5D; 
+}
+
+.recipe-ingredients h3, .recipe-instructions h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.recipe-ingredients ul, .recipe-instructions ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: 600;
+}

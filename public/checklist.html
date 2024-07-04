@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="checklist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="headfoot.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="head-img">
+                <a href="landing.html">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="landing.html" class="nav-link">Home</a></li>
+                    <li><a href="profile.html" class="nav-link">Profile</a></li>
+                    <li><a href="checklist.html" class="nav-link active">Cook</a></li>
+                    <li><a href="addRecipe.html" class="nav-link">Add Recipe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <p class="search-text">SELECT YOUR INGREDIENTS</p>
+    <div class="ingredient-container">
+        <ul class="ingredient-list">
+            <li><label><input type="checkbox" value="Beef"> Beef</label></li>
+            <li><label><input type="checkbox" value="Butter"> Butter</label></li>
+            <li><label><input type="checkbox" value="Cheese"> Cheese</label></li>
+            <li><label><input type="checkbox" value="Chicken"> Chicken</label></li>
+            <li><label><input type="checkbox" value="Egg"> Egg</label></li>
+            <li><label><input type="checkbox" value="Fish"> Fish</label></li>
+            <li><label><input type="checkbox" value="Flour"> Flour</label></li>
+            <li><label><input type="checkbox" value="Garlic"> Garlic</label></li>
+            <li><label><input type="checkbox" value="Honey"> Honey</label></li>
+            <li><label><input type="checkbox" value="Milk"> Milk</label></li>
+            <li><label><input type="checkbox" value="Olive Oil"> Olive Oil</label></li>
+            <li><label><input type="checkbox" value="Onion"> Onion</label></li>
+            <li><label><input type="checkbox" value="Pepper"> Pepper</label></li>
+            <li><label><input type="checkbox" value="Pork"> Pork</label></li>
+            <li><label><input type="checkbox" value="Potato"> Potato</label></li>
+            <li><label><input type="checkbox" value="Salt"> Salt</label></li>
+            <li><label><input type="checkbox" value="Sugar"> Sugar</label></li>
+            <li><label><input type="checkbox" value="Tomato"> Tomato</label></li>
+            <li><label><input type="checkbox" value="Vinegar"> Vinegar</label></li>
+            <li><label><input type="checkbox" value="Yogurt"> Yogurt</label></li>
+        </ul>
+    </div>
+    <div class="button-container">
+        <button class="submit-button" onclick="submitIngredients()">Submit</button>
+    </div>
+    <div id="recipeContainer" class="recipe-container"></div>
+    <footer>
+        <div class="foot-contain">
+            <img src="images/union.png" alt="Union" class="union">
+            <span class="brand-name">MIGKAON</span>
+        </div>
+    </footer>
+    <script src="checklist.js"></script>
+</body>
+</html>

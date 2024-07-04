@@ -1,0 +1,132 @@
+.top-rectangle {
+    background-color: #DAE2B6;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90px; 
+    max-width: 100%; 
+    z-index: 999; 
+}
+
+.edit-profile-rectangle {
+    width: 558px;
+    height: auto;
+    background-color: #E7EDCA;
+    border-radius: 10px;
+    margin: 20px auto;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.edit-profile-rectangle .title {
+    font-size: 32px;
+    color: #606C5D;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.edit-profile-rectangle form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.edit-profile-rectangle form .email-label,
+.edit-profile-rectangle form .username-label,
+.edit-profile-rectangle form .password-label,
+.edit-profile-rectangle form .confirm_password-label {
+    font-size: 20px;
+    color: #606C5D;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.edit-profile-rectangle form .email-container input,
+.edit-profile-rectangle form .username-container input,
+.edit-profile-rectangle form .password-container input,
+.edit-profile-rectangle form .confirm_password-container input {
+    width: 421px;
+    height: 55px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    margin: 0 50px;
+    display: flex;
+    border: 1px solid #E7EDCA;
+    padding: 15px; 
+    box-sizing: border-box; 
+    align-items: flex-start;
+}
+
+.edit-profile-rectangle form .confirm-button {
+    background-color: #FFFFFF;
+    color: #606C5D;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.edit-profile-rectangle form .confirm-button:hover {
+    background-color: #606C5D;
+    color: #FFFFFF;
+}
+
+.bottom-rectangle {
+    background-color: #DAE2B6;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.migkaon {
+    max-width: 10%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.socials {
+    max-width: 10%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}

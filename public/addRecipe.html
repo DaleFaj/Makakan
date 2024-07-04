@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="addRecipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="headfoot.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="head-img">
+                <a href="landing.html">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="landing.html" class="nav-link">Home</a></li>
+                    <li><a href="profile.html" class="nav-link">Profile</a></li>
+                    <li><a href="checklist.html" class="nav-link">Cook</a></li>
+                    <li><a href="addRecipe.html" class="nav-link active">Add Recipe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="edit-profile-rectangle">
+        <div class="title">Add Recipe</div>
+        <form id="recipeForm">
+            <div class="recipe-name-label">Recipe Name</div>
+            <div class="input-picture-container">
+                <input type="text" id="recipeName" name="recipeName" class="input-rectangle">
+                <div class="add-picture-rectangle">
+                    <a href="#" id="addPhotoLink"><img src="assets/add_photo.png" alt="Add Photo" class="add-photo"></a>
+                </div>
+            </div>
+            <div class="ingredients-label">Ingredients</div>
+            <textarea id="ingredients" name="ingredients" class="ingredients-rectangle"></textarea>
+            <div class="instructions-label">Instructions</div>
+            <textarea id="instructions" name="instructions" class="instructions-rectangle"></textarea>
+            <button type="submit" class="add-button">Add</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="foot-contain">
+            <img src="images/union.png" alt="Union" class="union">
+            <span class="brand-name">MIGKAON</span>
+        </div>
+    </footer>
+    <script src="addRecipe.js"></script>
+</body>
+</html>

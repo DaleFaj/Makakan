@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>    
+<body>
+    <div class='body,html'></div>
+    <div class="background"></div>
+    <div class="rectangle">
+        <form id="rectangleForm">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="Logo" class="logo">
+                <div class="title">Simplify your</div>
+                <div class="title2">cooking journey</div>
+            </div>
+            <div class="title">Welcome Back!</div>
+            <div class="username-label">Username</div>
+            <div class="username-container input">
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="password-label">Password</div>
+            <div class="password-container input"> 
+                <input type="password" id="password" name="password" required>
+            </div>
+                                                  
+            <div class="signup-container button">
+                <button type="submit">Log in</button>
+            </div>
+            <p class="login-text">Don't have an account? <a href="signup.html">Sign up </a></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDv5HGIse57sVo7ekFSp6kVx1-W9x7dGxM",
+          authDomain: "makakan-60c41.firebaseapp.com",
+          projectId: "makakan-60c41",
+          storageBucket: "makakan-60c41.appspot.com",
+          messagingSenderId: "109722647485",
+          appId: "1:109722647485:web:7e61b3e64c4b1dcaf970d4",
+          measurementId: "G-ZHFF6QXKZX"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>                                                                  
+</body>
+</html>

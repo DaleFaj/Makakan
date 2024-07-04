@@ -1,0 +1,270 @@
+body, html {
+    font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: #E7EDCA;
+  }
+  
+  
+  .rectangle {
+    width: 1238px;
+    height: 1016px;
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+    left: 80px;
+    right: 0px;
+    background-color: #FBFBFB;
+    border-radius: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangle form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .rectangle .title {
+    width: 210px;
+    height: 25px;
+    top: 180px;
+    left: 960px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.48px;
+    color: #606C5D;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 150px;
+  }
+  
+  .rectangle form .email-label{
+    font-size: 16px;
+    color: #606C5D;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 288px;
+    left: 765px;
+  }
+  
+  .rectangle form .username-label{
+    font-size: 16px;
+    color: #606C5D;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 387px;
+    left: 765px;
+  }
+  .rectangle form .password-label {
+    font-size: 16px;
+    color: #606C5D;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 485px;
+    left: 765px;
+  }
+  
+  .rectangle form .confirm_password-label {
+    font-size: 16px;
+    color: #606C5D;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 585px;
+    left: 765px;
+  }
+  
+  .logo-container {
+    max-width: 46%;
+    height: 860px;
+    top: 130px;
+    left: 450px;
+    padding: 40px;
+    background-color: #DAE2B6;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    margin-top: -90px;
+    margin-left: -400px;
+  }
+  
+  .logo-container .title {
+    font-size: 45px;
+    width: 482px;
+    height: 144px;
+    top: 611px;
+    left: 115px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    color: #606C5D;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-left: -30px;
+  }
+  .logo-container .title2 {
+    font-size: 45px;
+    width: 482px;
+    height: 144px;
+    top: 611px;
+    left: 115px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    color: #606C5D;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-left: -30px;
+  }
+  
+  .logo {
+    width: 700px;
+    height: auto;
+    top: 165px;
+    left: 279px;
+    margin-top: -170px;
+  }
+  
+  .email-container input {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 335px;
+    height: 10px;
+    top: 350px;
+    left: 810px;
+    border-radius: 10px;
+    border: 1px;
+    position: absolute;
+  }
+  
+  .username-container input {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 335px;
+    height: 10px;
+    top: 450px;
+    left: 810px;
+    border-radius: 10px;
+    border: 1px;
+    position: absolute;
+  }
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .signup-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .password-container input {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 335px;
+    height: 10px;
+    top: 550px;
+    left: 810px;
+    border-radius: 10px;
+    border: 1px;
+    position: absolute;
+  }
+  
+  .confirm_password-container input {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 335px;
+    height: 10px;
+    top: 650px;
+    left: 810px;
+    border-radius: 10px;
+    border: 1px;
+    position: absolute;
+  }
+  
+  .signup-container button {
+    width: 380px;
+    height: 50px;
+    top: 730px;
+    left: 810px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #DAE2B6;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+  .signup-container button:hover {
+    background-color:  #DAE2B6;
+  
+  }
+  
+  .login-text {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 207px;
+    height: 25px;
+    top: 765px;
+    left: 895px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+  }
+  
+  .login-text a {
+    color: #B4C07D; /* Adjust as needed */
+    text-decoration: none;
+  }
+  
+  .login-text a:hover {
+    text-decoration: underline;
+  }
